@@ -5,7 +5,7 @@ export const pathFromBezierCurve = (cubicBezierCurve) => {
   
   return (
     `
-        M${initialAxis.x} ${initialAxis.y}
+        M ${initialAxis.x} ${initialAxis.y}
         c ${initialControlPoint.x} ${initialControlPoint.y}
         ${endingControlPoint.x} ${endingControlPoint.y}
         ${endingAxis.x} ${endingAxis.y}
